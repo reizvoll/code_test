@@ -1,2 +1,2 @@
 # code_test
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+폴더에 숫자가 쓰여져 있는데, 각 단계를 뜻하며, 내부에는 코드가 적혀있습니다 ^-^b
