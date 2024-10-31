@@ -1,9 +1,10 @@
 function solution(arr, divisor) {
-    
-const result = arr.filter(number => number % divisor === 0);
-    
-    if (result.length === 0) {
-        return [-1];
-    }
-    return result.sort((a, b) => a - b);
+    var answer = [];
+    answer = arr.filter((a,b) => {
+        if(a % divisor === 0) {
+            return a
+        }
+    });
+    return answer = answer.length === 0 ? [-1] : answer.sort(function(a,b) {return a-b});
+
 }
